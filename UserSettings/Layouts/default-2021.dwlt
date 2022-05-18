@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 78
+  controlID: 63
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 79
+  controlID: 47
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 80
+  controlID: 48
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -402,9 +402,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: dc500000
+      m_SelectedIDs: c2530000
       m_LastClickedID: 0
-      m_ExpandedIDs: 64f0ffff34fbffff3a4d0000
+      m_ExpandedIDs: eaedfffff2edffff34fbffffce4d0000d04e0000604f00001c500000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -653,9 +653,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 140.03964, y: 218.7496, z: -9.555993}
+    m_Target: {x: 380.22235, y: 208.89105, z: -1.1157837}
     speed: 2
-    m_Value: {x: 140.03964, y: 218.7496, z: -9.555993}
+    m_Value: {x: 380.22235, y: 208.89105, z: -1.1157837}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -702,13 +702,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.0033092613, y: -0.0054020323, z: 0.000014642335, w: -0.9999959}
+    m_Target: {x: 0.011690659, y: -0.00090193644, z: -0.000013782423, w: -0.99994624}
     speed: 2
-    m_Value: {x: -0.0033092615, y: -0.0054020328, z: 0.000014642336, w: -0.99999595}
+    m_Value: {x: 0.01169045, y: -0.0024018183, z: -0.000031317923, w: -0.9999288}
   m_Size:
-    m_Target: 191.07591
+    m_Target: 206.67957
     speed: 2
-    m_Value: 191.07591
+    m_Value: 206.67957
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -866,22 +866,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/MicaFolder/Scenes
+    - Assets/resource_default
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/MicaFolder/Scenes
+  - Assets/resource_default
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Mica\OneDrive\Desktop\Multiplier
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 19}
-    m_SelectedIDs: 00510000
-    m_LastClickedID: 20736
-    m_ExpandedIDs: 000000009e500000a0500000a2500000a4500000a6500000
+    m_SelectedIDs: a0530000
+    m_LastClickedID: 21408
+    m_ExpandedIDs: 000000006453000066530000685300006a5300006c530000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -909,7 +909,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009e500000a0500000a2500000a4500000a6500000
+    m_ExpandedIDs: 000000006453000066530000685300006a5300006c530000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
