@@ -5,6 +5,7 @@ using UnityEngine;
 public class Gate : MonoBehaviour {
     public Canvas myCanvas;
     public GameObject dog;
+    public ParticleSystem part,part2;
     // Use this for initialization
     void Start() {
         
@@ -21,7 +22,9 @@ public class Gate : MonoBehaviour {
     void OnTriggerExit(Collider collider) {
        if (collider.gameObject.tag == "Player") {
             Instantiate(dog, new Vector3(338, 0, 176), Quaternion.identity);
+            part.Play();
             Instantiate(dog, new Vector3(336, 0, 176), Quaternion.identity);
+            part2.Play();
         }
         
         myCanvas.enabled = false;

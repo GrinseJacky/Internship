@@ -7,13 +7,13 @@ public class NegGate : MonoBehaviour
     private Canvas myCanvas;
     // Use this for initialization
     void Start() {
-        myCanvas = FindObjectOfType<Canvas>();
-        myCanvas.enabled = false;
+        //myCanvas = FindObjectOfType<Canvas>();
+        //myCanvas.enabled = false;
     }
 
     private void OnTriggerEnter(Collider collider) {
         if (collider.gameObject.tag == "Player") {
-            myCanvas.enabled = true;
+            //myCanvas.enabled = true;
         }
     }
 
@@ -25,7 +25,7 @@ public class NegGate : MonoBehaviour
         for (int i = 0; i < test.Length; i++) {
             Destroy(test[i]);
         }
-        myCanvas.enabled = false;
+        //myCanvas.enabled = false;
     }
     }
 }
