@@ -312,6 +312,11 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 4854343819287749475, guid: 45288819fde2143449a96207b14db0bb, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 45288819fde2143449a96207b14db0bb, type: 3}
+--- !u!223 &232515706 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 3997388875527942015, guid: 30bc3b5de91e99f4bbf6e1f39ba320c3, type: 3}
+  m_PrefabInstance: {fileID: 1495081149}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &456462401
 GameObject:
   m_ObjectHideFlags: 0
@@ -890,7 +895,7 @@ PrefabInstance:
     - target: {fileID: 297295134415394387, guid: 891047c345de31141b4d87eab2719522, type: 3}
       propertyPath: myCanvas
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 232515706}
     - target: {fileID: 312314511475671447, guid: 891047c345de31141b4d87eab2719522, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1324,6 +1329,11 @@ PrefabInstance:
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 198656289721292014, guid: ce8f9b5cceb10944bbce1b9c790a4844, type: 3}
   m_PrefabInstance: {fileID: 2080386033}
+  m_PrefabAsset: {fileID: 0}
+--- !u!223 &1300085756 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 4641183987416276946, guid: 07c01f8db90fe4b41a1e77d1ecbce461, type: 3}
+  m_PrefabInstance: {fileID: 2070271852}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1341838290
 GameObject:
@@ -2991,7 +3001,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   part: {fileID: 1260852389}
   part2: {fileID: 623654086}
-  myCanvas: {fileID: 0}
+  myCanvas: {fileID: 1300085756}
   dog: {fileID: 2066896392038628118, guid: 45288819fde2143449a96207b14db0bb, type: 3}
 --- !u!1001 &2132402901
 PrefabInstance:
